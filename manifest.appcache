@@ -3,7 +3,6 @@ CACHE MANIFEST
 
 # Explicitly cached 'master entries'.
 CACHE:
-index.html
 style/styles.css
 img/favicon.ico
 img/image.jpg
