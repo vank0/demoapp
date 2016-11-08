@@ -1,8 +1,7 @@
 Notification.requestPermission(function(result) {
     if (result === 'granted') {
-        console.log('permission granted!');
         navigator.serviceWorker.ready.then(function(registration) {
-            console.log('ServiceWorker registration successful with scope:', registration.scope);
+            console.log(registration);
             registration.showNotification("Ново харесване в Shell", {
                 body: "Вече сте на 5то място!",
                 icon: '../demoapp/img/manifest/icon-192x192.png',
