@@ -14,7 +14,7 @@
         "sizes": "512x512",
         "type": "image/png"
     }],
-    "prefer_related_applications": false,
+    "prefer_related_applications": true,
     "related_applications": [{
        "platform": "web",
        "url": "https://vank0.github.io/demoapp"
