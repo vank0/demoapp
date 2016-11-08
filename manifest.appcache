@@ -5,7 +5,14 @@ CACHE MANIFEST
 CACHE:
 index.html
 style/styles.css
-img/*
+img/favicon.ico
+img/image.jpg
+img/manifest/icon-48x48.png
+img/manifest/icon-72x72.png
+img/manifest/icon-96x96.png
+img/manifest/icon-144x144.png
+img/manifest/icon-192x192.png
+img/manifest/icon-512x512.png
 script/script.js
 sw.js
 # Resources that require the user to be online.
