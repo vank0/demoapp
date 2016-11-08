@@ -18,7 +18,7 @@ self.addEventListener('push', function(event) {
 });
 
 self.addEventListener('notificationclick', function(event) {
-    console.log('On notification click: ', event.notification.tag);
+    console.log(event);
     event.notification.close();
     if (event.action === 'yes') {
         console.log('yes');
