@@ -5,6 +5,7 @@ Notification.requestPermission(function(result) {
       registration.showNotification("Ново харесване в Shell", {
         body: "Вече сте на 5то място!",
         icon: '../demoapp/img/manifest/icon-192x192.png',
+        vibration: [125,75,125,275,200,275,125,75,125,275,200,600,200,600],
         tag: 'Shell Corrosion Busters',
         image: '../demoapp/img/image.jpg'
       });
