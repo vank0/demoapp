@@ -3,7 +3,7 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
     '',
-    'styles/styles.css',
+    'style/styles.css',
     'script/script.js'
 ];
 
