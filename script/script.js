@@ -1,5 +1,6 @@
 Notification.requestPermission(function(result) {
     if (result === 'granted') {
+        console.log('permission granted!');
         navigator.serviceWorker.ready.then(function(registration) {
             console.log('ServiceWorker registration successful with scope:', registration.scope);
             registration.showNotification("Ново харесване в Shell", {
