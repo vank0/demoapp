@@ -1,4 +1,4 @@
-navigator.serviceWorker.register('script/sw.js');
+navigator.serviceWorker.register('/script/sw.js');
 Notification.requestPermission(function(result) {
   if (result === 'granted') {
     navigator.serviceWorker.ready.then(function(registration) {
