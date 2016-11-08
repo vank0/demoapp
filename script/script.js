@@ -1,4 +1,3 @@
-console.log('permission granted!');
 Notification.requestPermission(function(result) {
     if (result === 'granted') {
         console.log('permission granted!');
